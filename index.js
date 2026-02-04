@@ -347,7 +347,6 @@ async function deployApp(deployId, appName, env, config) {
     startTime: new Date().toISOString(),
     status: "in-progress",
     path: config.path,
-    branch: config.branch,
     steps: [],
   };
 
