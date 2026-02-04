@@ -5,8 +5,6 @@ const { exec } = require("child_process");
 const fs = require("fs").promises;
 const path = require("path");
 const yaml = require("js-yaml");
-const dotenv = require("dotenv");
-dotenv.config();
 
 const app = express();
 app.use(express.json());
