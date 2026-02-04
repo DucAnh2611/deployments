@@ -1,0 +1,25 @@
+{
+  "name": "deployment",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup index.js --format cjs,esm --dts",
+    "start": "node dist/index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "tsup": "^8.5.1"
+  }
+}
